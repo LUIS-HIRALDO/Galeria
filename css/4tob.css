@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+}
+
+.container{
+    margin: 100px 0 0 200px ;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container img{
+width: 10%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+border: 2px solid rgb(255, 255, 255, 0.684);
+
+transition: all ease-in-out 0.5s;
+}
+
+.container img:hover {
+width: 25%;
+}
+
+@media (min-width: 300px) {
+    body {
+      background-color: rgb(148, 18, 120);
+    }
+
+    .container{
+        margin: 300px 0px 60px 30px ;
+        width: 70%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .container img{
+        width: 20%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid rgb(255, 255, 255, 0.684);
+        
+        transition: all ease-in-out 0.5s;
+        }
+        
+        .container img:hover {
+        width: 35%;
+        }
+
+
+  }
+
+
+@media (min-width: 360px) {
+    body {
+      background-color: rgb(18, 148, 72);
+    }
+
+    .container{
+        margin: 300px 0px 10px 90px ;
+        width: 80%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    .container img{
+        width: 20%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid rgb(255, 255, 255, 0.684);
+        
+        transition: all ease-in-out 0.5s;
+        }
+        
+        .container img:hover {
+        width: 35%;
+        }
+
+
+  }
+
+
+
+@media (min-width: 600px) {
+    body {
+      background-color: rgb(64, 163, 196);
+    }
+  }
+  
+
+  @media (min-width: 1280px) {
+    body {
+      background-color: rgb(65, 24, 139);
+    }
+  }
+  
